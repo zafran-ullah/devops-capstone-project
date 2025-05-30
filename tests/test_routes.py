@@ -125,7 +125,7 @@ class TestAccountService(TestCase):
                          status.HTTP_415_UNSUPPORTED_MEDIA_TYPE)
 
     # ADD YOUR TEST CASES HERE ...
-        def test_get_account(self):
+    def test_get_account(self):
         """It should Read a single Account"""
         account = self._create_accounts(1)[0]
         resp = self.client.get(
