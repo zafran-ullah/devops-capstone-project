@@ -27,4 +27,7 @@ coverage==6.3.2
 
 # Utilities
 httpie==3.2.1
-flask-talisman
+
+# Security and CORS
+flask-talisman==0.8.1
+flask-cors==3.0.10
